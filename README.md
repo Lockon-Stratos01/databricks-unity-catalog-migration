@@ -29,19 +29,19 @@ O projeto está estruturado em uma sequência modular de notebooks na pasta `not
 
 ### 1. Mascaramento de Dados Sensíveis (LGPD)
 Proteção de dados PII (ex: CPF mascarado) aplicada diretamente nas colunas do Unity Catalog.  
-![Mascaramento LGPD](docs/lgpd-column-masking.png)
+![Mascaramento LGPD](Docs/lgpd-column-masking.png)
 
 ### 2. Linhagem de Dados - Origem / Legado
 Rastreabilidade inicial mapeando a ingestão das tabelas legadas.  
-![Data Lineage](docs/data-lineage.png)
+![Data Lineage](Docs/data-lineage.png)
 
 ### 3. Linhagem de Dados - Camada Silver
 Visualização do fluxo e transformação estruturada dos dados na camada intermediária.  
-![Linhagem Silver](docs/data-lineage-silver.png)
+![Linhagem Silver](Docs/data-lineage-silver.png)
 
 ### 4. Linhagem de Dados - Camada Gold (Consolidação)
 Análise de dependências e impacto na tabela final de resumo e crédito de clientes.  
-![Linhagem Gold](docs/data-lineage-gold.png)
+![Linhagem Gold](Docs/data-lineage-gold.png)
 
 ---
 
@@ -49,7 +49,7 @@ Análise de dependências e impacto na tabela final de resumo e crédito de clie
 
 ```text
 .
-├── docs/                 # Evidências visuais e documentação
+├── Docs/                 # Evidências visuais e documentação
 │   ├── lgpd-column-masking.png
 │   ├── data-lineage.png
 │   ├── data-lineage-silver.png
